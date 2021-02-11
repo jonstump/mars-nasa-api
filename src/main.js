@@ -12,9 +12,13 @@ function getElements(response, type) {
     console.log(response);
     let solDay = `${response.sol_keys[6]}`;
     console.log(solDay);
-    $('#showSeason').text(`The season is ${response[solDay].Northern_season}`);
+    $("#showNorthSeasonTop").text("Northern Hemisphere:");
+    $('#showNorthSeason').text(`${response[solDay].Northern_season}`);
+    $("#showNorthSeasonBottom").text("Southern Hemisphere:");
+    $('#showSouthSeason').text(`${response[solDay].Southern_season}`);
   } else if (response) {
-    $('#showTemp').text(`and the temperature is ${response.soles[0].max_temp} `);
+    $('#showTempMax').text(`Max: ${response.soles[0].max_temp} ° F`);
+    $('#showTempMin').text(`Min: ${response.soles[0].min_temp} ° F`);
   } else {
     $('#showErrors').text('I done told you there was an error');
   }

@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 
@@ -11,17 +12,19 @@
   <div class="container">
     <div class="jumbotron">
       <h1>Mars Weather Station</h1>
-      <p>If you wanted warmer weather you should move to a planet with a full atmosphere.</p>
+      <p><em>If you wanted warmer weather you should move to a planet with a full atmosphere.<em></p>
     </div>
     <div class="row">
-
       <div id="seasonCard" class="cl-md-8">
         <div class="card-title">
           <h1>Current Season:</h1>
         </div>
         <div class="card-body">
+          <span id="showNorthSeasonTop"></span>
+          <span id="showNorthSeason"></span>
+          <span id="showNorthSeasonBottom"></span>
+          <span id="showSouthSeason"></span>
           <img class="marsImage" src="./img/mars.jpg">
-          <span id="showSeason"></span>
         </div>
       </div>
 
@@ -30,7 +33,8 @@
           <h1>Current Temp:</h1>
         </div>
         <div class="card-body">
-          <span id="showTemp"></span>
+          <span id="showTempMin"></span>
+          <span id="showTempMax"></span>
           <span id="showErrors"></span>
         </div>
       </div>

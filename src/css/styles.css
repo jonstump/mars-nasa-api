@@ -6,39 +6,58 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
+  background-color: #280004;
 }
 
+.jumbotron {
+  background-color: #A53F2B;
+  color: #F0FFCE;
+  text-align: center;
+}
+h1 {
+  font-family: 'Fascinate';
+  color: #F0FFCE;
+}
+span {
+  display: block;
+}
 .row {
   margin: auto;
-  background-color: rgb(4, 112, 112);
   justify-content: space-evenly;
 }
 
 #seasonCard{
-  background-color: blueviolet;
+  background-color: #A53F2B;
   height: auto;
   width: 400px;
   padding: 10px;
   border-radius: 1em;
+  color: #F0FFCE;
+  font-size: x-large;
+  text-align: center;
   }
+
+
 .marsImage {
   /* width: auto; */
   max-width: 75%;
   max-height: 75%;
 }
 #tempCard{
-  background-color: rgb(187, 12, 108);
+  background-color: #A53F2B;
   height: 200px;
   width: 400px;
   padding: 10px;
   border-radius: 1em;
+  color: #F0FFCE;
+  font-size: xx-large;
+  text-align: center;
 }
 .card-body{
-  background-color: brown;
+  /* background-color: brown; */
   height: fit-content;
   word-wrap: break-word;
   width: fixed;
   vertical-align:middle;
-  outline-style: solid;
-  outline-color: cornflowerblue;
+  /* outline-style: solid; */
 }
