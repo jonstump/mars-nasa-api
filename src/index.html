@@ -8,9 +8,37 @@
 </head>
 
 <body>
-  <span id="showSeason"></span>
-  <span id="showTemp"></span>
-  <span id="showErrors"></span>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Mars Weather Station</h1>
+      <p>If you wanted warmer weather you should move to a planet with a full atmosphere.</p>
+    </div>
+    <div class="row">
+
+      <div id="seasonCard" class="cl-md-8">
+        <div class="card-title">
+          <h1>Current Season:</h1>
+        </div>
+        <div class="card-body">
+          <img class="marsImage" src="./img/mars.jpg">
+          <span id="showSeason"></span>
+        </div>
+      </div>
+
+      <div id="tempCard" class="cl-md-4">
+        <div class="card-title">
+          <h1>Current Temp:</h1>
+        </div>
+        <div class="card-body">
+          <span id="showTemp"></span>
+          <span id="showErrors"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 </body>
 
 </html>

@@ -10,7 +10,9 @@ let curiosity = Curiosity.weatherRover();
 function getElements(response, type) {
   if (response && (type === 'season')) {
     console.log(response);
-    $('#showSeason').text(`The season is ${response['779'].Season}`);
+    let solDay = `${response.sol_keys[6]}`;
+    console.log(solDay);
+    $('#showSeason').text(`The season is ${response[solDay].Northern_season}`);
   } else if (response) {
     $('#showTemp').text(`and the temperature is ${response.soles[0].max_temp} `);
   } else {

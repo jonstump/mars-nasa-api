@@ -1,6 +1,6 @@
 export class Mars {
   static weatherMars() {
-    return fetch(`https://api.nasa.gov/insight_weather/?api_key=${process.env.API_KEY}&feedtype=json`)
+    return fetch(`https://api.nasa.gov/insight_weather/?api_key=${process.env.API_KE}&feedtype=json`)
       .then(function(response) {
         if (!response.ok) {
           throw Error(response.statusText);

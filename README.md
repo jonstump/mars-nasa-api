@@ -104,12 +104,14 @@ code .
 
 * * *
 
-## License:
-> *&copy; David Couch, 2021*
+## Sources:
+[Mars Image and bonus podcast on Mars Climate Cycles](https://www.scientificamerican.com/podcast/episode/climate-cycles-could-have-carved-canyons-on-mars/)
 
+## License:
+ 
 Licensed under [MIT license](https://mit-license.org/)
 
 * * *
 
 ## Contact Information
-_David Couch: [Email](dcouch440@gmail.com)_
+_NAME: [Email](email@gmail.com)_

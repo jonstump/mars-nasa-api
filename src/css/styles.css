@@ -7,3 +7,38 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+.row {
+  margin: auto;
+  background-color: rgb(4, 112, 112);
+  justify-content: space-evenly;
+}
+
+#seasonCard{
+  background-color: blueviolet;
+  height: auto;
+  width: 400px;
+  padding: 10px;
+  border-radius: 1em;
+  }
+.marsImage {
+  /* width: auto; */
+  max-width: 75%;
+  max-height: 75%;
+}
+#tempCard{
+  background-color: rgb(187, 12, 108);
+  height: 200px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 1em;
+}
+.card-body{
+  background-color: brown;
+  height: fit-content;
+  word-wrap: break-word;
+  width: fixed;
+  vertical-align:middle;
+  outline-style: solid;
+  outline-color: cornflowerblue;
+}
