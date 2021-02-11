@@ -1,10 +1,10 @@
-# {Project Name}
+# Project Name
 
 #### *Co-Created By: Jon Stump
 #### *Co-Created By: Louie Schoenknecht
-#### *Co-Created By: 
+#### *Co-Created By: Jer Miller <gkstaff@gmail.com>
 
-#### *{Brief Project Description}*
+#### *Brief Project Description*
 <!-- Check list
 - Project Name
 - Author
@@ -41,7 +41,7 @@ This is weekly homework for Epicodus regarding APIs using the NASA Api.
 ### Want to see this webpage now?
 ###### See this web page in action on [Github Pages]({repo})
 
-* Go to ( {project repo} ).
+* Go to ( project repo ).
 
 *  Navigate to the code button on the github website.\
 ![Code button](/img/README/code.PNG)
